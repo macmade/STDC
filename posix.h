@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010, Jean-David Gadina <macmade@eosgarden.com>
+ * Copyright (c) 2010, Jean-David Gadina - www.xs-labs.com
  * Distributed under the Boost Software License, Version 1.0.
  * 
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -31,8 +31,7 @@
 
 /*!
  * @header      std_posix.h
- * @copyright   eosgarden 2010 - Jean-David Gadina <macmade@eosgarden.com>
- * @abstract    Inclusion of the full POSIX header files
+ * @copyright   (c) 2010 - Jean-David Gadina - www.xs-labs.com * @abstract    Inclusion of the full POSIX header files
  */
 
 #ifndef _STDC_POSIX_H_

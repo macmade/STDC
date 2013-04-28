@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010, Jean-David Gadina <macmade@eosgarden.com>
+ * Copyright (c) 2010, Jean-David Gadina - www.xs-labs.com
  * Distributed under the Boost Software License, Version 1.0.
  * 
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -31,8 +31,7 @@
 
 /*!
  * @header      ascii.h
- * @copyright   eosgarden 2010 - Jean-David Gadina <macmade@eosgarden.com>
- * @abstract    ASCII control characters
+ * @copyright   (c) 2010 - Jean-David Gadina - www.xs-labs.com * @abstract    ASCII control characters
  */
 
 #ifndef _STDC_STD_EXTRAS_ASCII_H_

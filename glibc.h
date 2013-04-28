@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010, Jean-David Gadina <macmade@eosgarden.com>
+ * Copyright (c) 2010, Jean-David Gadina - www.xs-labs.com
  * Distributed under the Boost Software License, Version 1.0.
  * 
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -31,8 +31,7 @@
 
 /*!
  * @header      std_c95.h
- * @copyright   eosgarden 2010 - Jean-David Gadina <macmade@eosgarden.com>
- * @abstract    Inclusion of the full GNU C Library header files
+ * @copyright   (c) 2010 - Jean-David Gadina - www.xs-labs.com * @abstract    Inclusion of the full GNU C Library header files
  */
 
 #ifndef _STDC_GLIBC_H_
