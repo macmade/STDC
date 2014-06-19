@@ -35,7 +35,7 @@
  */
 
 #ifndef _STDC_C99_H_
-#define _STD_C99_H_
+#define _STDC_C99_H_
 #pragma once
 
 #ifdef __cplusplus
