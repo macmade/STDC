@@ -33,9 +33,16 @@
 #include <std/C/ISO-IEC-9899-1999.h>
 
 #include <stdalign.h>       /* alignas and alignof convenience macros */
+#if !defined( __STDC_NO_ATOMICS__ )
 #include <stdatomic.h>      /* Atomic types */
+#endif
 #include <stdnoreturn.h>    /* noreturn convenience macros */
+#if !defined( __STDC_NO_THREADS__ ) && !defined( __APPLE__ )
 #include <threads.h>        /* Thread library */
+#endif
+#if !defined( __APPLE__ )
 #include <uchar.h>          /* UTF-16 and UTF-32 character utilities */
+#endif
+
 
 #endif /* STD_ISO_IEC_9899_2011_H */

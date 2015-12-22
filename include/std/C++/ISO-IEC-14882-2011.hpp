@@ -30,7 +30,7 @@
 #ifndef STD_ISO_IEC_14882_2011_H
 #define STD_ISO_IEC_14882_2011_H
 
-#include <std/C++/ISO-IEC-14882-1998>
+#include <std/C++/ISO-IEC-14882-1998.hpp>
 
 #include <array>                /* std::array container */
 #include <atomic>               /* Atomic operations library */
@@ -40,11 +40,15 @@
 #include <cinttypes>            /* Formatting macros , intmax_t and uintmax_t math and conversions */
 #include <codecvt>              /* Unicode conversion facilities */
 #include <condition_variable>   /* Thread waiting conditions */
+#if !defined( __APPLE__ )
 #include <cstdalign>            /* Defines one compatibility macro constant */
+#endif
 #include <cstdbool>             /* Defines one compatibility macro constant */
 #include <cstdint>              /* Fixed-size types and limits of other types */
 #include <ctgmath>              /* Simply includes the headers <ccomplex> and <cmath>: the overloads equivalent to the contents of the C header tgmath.h are already provided by <cmath> and <complex> */
+#if !defined( __APPLE__ )
 #include <cuchar>               /* C-style Unicode character conversion functions */
+#endif
 #include <forward_list>         /* std::forward_list container */
 #include <future>               /* Primitives for asynchronous computations */
 #include <initializer_list>     /* std::initializer_list class template */

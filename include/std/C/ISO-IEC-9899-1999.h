@@ -32,7 +32,9 @@
 
 #include <std/C/ISO-IEC-9899-1990-AMD-1-1995.h>
 
+#ifndef __STDC_NO_COMPLEX__
 #include <complex.h>        /* Complex number arithmetic */
+#endif
 #include <fenv.h>           /* Floating-point environment */
 #include <inttypes.h>       /* Format conversion of integer types */
 #include <stdbool.h>        /* Boolean type */
