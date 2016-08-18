@@ -30,7 +30,7 @@
 #ifndef STD_ISO_IEC_14882_2014_H
 #define STD_ISO_IEC_14882_2014_H
 
-#include <std/C++/ISO-IEC-14882-2011>
+#include <std/C++/ISO-IEC-14882-2011.hpp>
 
 #include <shared_mutex>         /* Shared mutual exclusion primitives */
 
