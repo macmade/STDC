@@ -33,7 +33,7 @@
 
 #include <std/C++/ISO-IEC-14882-2014.hpp>
 
-#elif defined( __cplusplus ) && __cplusplus >= 201100L
+#elif defined( __cplusplus ) && ( __cplusplus >= 201100L || ( defined( _MSC_VER ) && _MSC_VER >= 1900 ) )
 
 #include <std/C++/ISO-IEC-14882-2011.hpp>
 
