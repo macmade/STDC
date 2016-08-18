@@ -40,13 +40,13 @@
 #include <cinttypes>            /* Formatting macros , intmax_t and uintmax_t math and conversions */
 #include <codecvt>              /* Unicode conversion facilities */
 #include <condition_variable>   /* Thread waiting conditions */
-#if !defined( __APPLE__ )
+#if !defined( __APPLE__ ) && !defined( _WIN32 )
 #include <cstdalign>            /* Defines one compatibility macro constant */
 #endif
 #include <cstdbool>             /* Defines one compatibility macro constant */
 #include <cstdint>              /* Fixed-size types and limits of other types */
 #include <ctgmath>              /* Simply includes the headers <ccomplex> and <cmath>: the overloads equivalent to the contents of the C header tgmath.h are already provided by <cmath> and <complex> */
-#if !defined( __APPLE__ )
+#if !defined( __APPLE__ ) && !defined( _WIN32 )
 #include <cuchar>               /* C-style Unicode character conversion functions */
 #endif
 #include <forward_list>         /* std::forward_list container */
